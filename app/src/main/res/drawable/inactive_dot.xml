@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:andriod="http://schemas.android.com/tools"
+    andriod:shape="oval"
+    andriod:useLevel="true"
+    andriod:dither="true"
+    >
+    <size andriod:height="8dp" andriod:width="8dp"/>
+    <solid andriod:color="color/input_login_hint"/>
+
+</shape>

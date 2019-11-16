@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:id="@+id/group_feature"
+        android:checkableBehavior="single">
+
+    <item android:id="@+id/account"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item android:id="@+id/bookmarks"
+        android:icon="@drawable/bookmarked"
+        android:title="Saved"/>
+    <item android:id="@+id/categories"
+        android:icon="@drawable/cateogry"
+        android:title="Categories"/>
+
+
+
+
+
+    </group>
+    <group android:id="@+id/group_contact"
+        android:checkableBehavior="single">
+
+
+
+            <item android:id="@+id/mail1"
+                android:icon="@drawable/mail"
+                android:title="Send Mail"/>
+
+            <item android:id="@+id/phonev"
+                android:icon="@drawable/phone"
+                android:title="call"/>
+
+
+</group>
+    <group android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+
+
+        <item android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/action_settings"/>
+
+        <item android:id="@+id/exit"
+            android:icon="@drawable/exit"
+            android:title="Exit app"/>
+
+
+    </group>
+</menu>
+
+

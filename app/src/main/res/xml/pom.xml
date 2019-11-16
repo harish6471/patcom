@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <dependency>
+        <groupId>com.braintreepayments.api</groupId>
+        <artifactId>braintree</artifactId>
+        <version>[2.0.0,)</version>
+        <type>aar</type>
+        <configuration>
+            <manifestMergeLibraries>true</manifestMergeLibraries>
+        </configuration>
+    </dependency>
+</dependencies>
